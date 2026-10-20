@@ -83,17 +83,102 @@ console.log(frete);
 */
 
 //Tipos Primitivos
-const preco = 19.9;
-console.log(typeof preco);
+ //const preco = 19.9;
+//console.log(typeof preco);
 
-const nome = "Lucas";
-console.log (typeof nome);
+//const nome = "Lucas";
+//console.log (typeof nome);
 
-const ativo = true;
-console.log(typeof ativo);
+//const ativo = true;
+//console.log(typeof ativo);
 
-const vazio = null;
-console.log(typeof vazio);
+//const vazio = null;
+//console.log(typeof vazio);
 
-let indefinido;
-console.log(typeof indefinido);
+//let indefinido;
+//console.log(typeof indefinido);
+
+//Strings e Template Literals 
+
+//const nome1 = "Lucas";
+//const nome2 = "Maria";
+//const nome3 = "João";
+//const idade = "27";
+
+//const nomeCompleto = "Lucas Cristóvão de Lima";
+
+//console.log (nomeCompleto.length);
+//.Length é para comprimento ele mede!
+
+//console.log(nomeCompleto);
+//console.log(nomeCompleto.toUpperCase());
+//console.log(nomeCompleto.toLowerCase());
+
+// para ativar uma função termina-la com () "Parenteses".
+
+//console.log(`Olá, meu nome é ${nomeCompleto} e tenho ${idade} anos.`)
+
+
+//Conversões de Tipo
+//console.log(Number(`123`));
+//console.log(parseInt(`10.9`));
+//console.log(parseFloat(`10.9`));
+//console.log(String(123));
+
+//console.log(Boolean(0));
+// 0 é falso 1 é verdadeiro!
+//console.log(Boolean(1));
+//console.log(Boolean(``));
+
+//const texto1 = prompt("Digite um Número");
+//const texto = Number(prompt("Digite um número"));
+//console.log(texto + 5);
+
+//Arredontando e formatando números
+
+//const preco = 19.987;
+
+//console.log (preco.toFixed(2));
+//console.log (Math.round(preco));
+//console.log (Math.floor(preco));
+//console.log (Math.ceil(preco));
+
+//Operadores Atitméticos
+
+//console.log(2 + 3);
+//console.log(5 - 2);
+//console.log(4 * 2);
+//console.log(10 / 2);
+//console.log(10 % 3);
+//console.log(2 ** 3);
+
+//Operadores de Comparação,
+//console.log (5 =="5"); // igual frouxo
+//console.log (5 == 5); // igual frouxo
+
+//console.log (5 === "5"); // igual estrito
+//console.log (5 === 5); // igual estrito
+
+//console.log (5 != "5");  // diferente frouxo
+//console.log (5 != 7);  // diferente frouxo
+
+//console.log (5 !== "5");  // diferente estrito
+//console.log (5 !== 7);  // diferente estrito
+
+//Média de duas notas.
+//console.log ();
+//const n1 = Number ("Primeira nota");
+//const n2 = Number("Segunda nota");
+
+//const media = (n1 + n2) / 2;
+
+//console.log (`Média: ${media.toFixed(1)}`);
+
+//IMC (Índice de massa Corportal)
+
+//const peso = Number(prompt("Digite seu peso(kg)"));
+//const altura = Number(prompt("Altura (m):"));
+
+//const imc = peso / (altura ** 2);
+
+//alert(`IMC: ${imc.toFixed(2)}`);
