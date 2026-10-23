@@ -151,15 +151,53 @@
 
 //**Exemplo:** `4`, `9` e `7` → `O maior número é: 9`
 
-const a = Number(prompt("Digite o Primeiro"));
-const b = Number(prompt("Digite o Segundo"));
-const c = Number(prompt("Digite o Terçeiro"));
+//const a = Number(prompt("Digite o Primeiro"));
+//const b = Number(prompt("Digite o Segundo"));
+//const c = Number(prompt("Digite o Terçeiro"));
 
-if (Number.isNaN(a) || Number.isNaN(b) || Number.isNaN(c)) {
-  alert("Numeros Inválidos.")
+//if (Number.isNaN(a) || Number.isNaN(b) || Number.isNaN(c)) {
+//  alert("Numeros Inválidos.")
+//} else {
+//  let maior = a
+//  if(b > maior) maior = b;
+//  if(c > maior) maior = c;
+//  alert("O maior número é : " + maior);
+//}
+
+//Peça dois números e uma operação (+, -, *, /). Use switch para calcular, com default para operações inválidas e checagem de divisão por zero.
+
+const calculo = Number(prompt("Digite o Primeiro valor!."));
+const calculo2 = Number(prompt("Digite o Segundo Numero!."));
+const op = prompt("Digite a operação (+, -, *, /)");
+let resultado;
+if (Number.isNaN(calculo) || Number.isNaN(calculo2)) {
+  alert("Valores inválidos!");
 } else {
-  let maior = a
-  if(b > maior) maior = b;
-  if(c > maior) maior = c;
-  alert("O maior número é : " + maior);
+ 
+  switch (op) {
+    case "+":
+       resultado = calculo + calculo2;
+       alert(`Resultado ${resultado}`);
+       break;
+       case "-":
+       resultado = calculo + calculo2;
+       alert(`Resultado ${resultado}`);
+       break;
+       case "*":
+       resultado = calculo + calculo2;
+       alert(`Resultado ${resultado}`);
+       break;  
+       case "/":
+       if (calculo2 === 0)    {
+       alert(`Resultado ${resultado}`);
+       } else {
+       resultado = calculo / calculo2;
+       alert(`Resultado ${resultado}`);
+
+       }
+       break;
+        
+        default:
+          alert("Operação inválida");
+}
 }
