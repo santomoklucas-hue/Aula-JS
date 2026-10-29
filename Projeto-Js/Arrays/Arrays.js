@@ -83,4 +83,3 @@ console.log(aluno);
 delete aluno.cidade;
 console.log(aluno);
 
-oi
