@@ -69,7 +69,7 @@
 // const b = [3, 4];
 
 // console.log(a.concat(b));  // ele vai juntar a const A e B juntas,
-// console.log([...a, ...b]); //... os 3 pontos significa que você quer tudo da const tudo que se encontra dentro dela ou sela a mesma coisa que (concat).
+// console.log([...a, ...b]); //... os 3 pontos significa que você quer tudo da const tudo que se encontra dentro dela ou sela a mesf coisa que (concat).
 // console.log([0, ...a, 99, ...b]);
 
 // const
