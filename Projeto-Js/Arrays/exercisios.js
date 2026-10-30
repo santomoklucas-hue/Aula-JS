@@ -288,6 +288,15 @@ Saída esperada: `[ 'nome', 'curso' ]` */
 //Primeiro maior que 10
 //Dado const nums = [4, 8, 12, 15, 3], use find para achar o primeiro número maior que 10.
 
-const nums = [4,8 ,12, 15,3];
-const primeiroMaiorQue10 = nums.find(n => n > 10);
-console.log(primeiroMaiorQue10);
+// const nums = [4,8 ,12, 15,3];
+// const primeiroMaiorQue10 = nums.find(n => n > 10);
+// console.log(primeiroMaiorQue10);
+
+//Dado um array de pessoas com nome e idade, ache a pessoa chamada "Bruno".
+const pessoas = [
+  { nome: "Ana", idade: 20 },
+  { nome: "Bruno", idade: 17 },
+  { nome: "Carla", idade: 30 },
+];
+const bruno = pessoas.find(p => p.nome === "Bruno");
+console.log(bruno); //
